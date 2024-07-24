@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="js/check.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NinjaGo</title>
+    <link rel="stylesheet" href="css/levelone.css">
+
+</head>
+
+<body>
+
+    <div class="levelOne d-flax-centre">
+        <div>
+            <h1>GAME</h1>
+        </div>
+        <div class="game-body">
+            <div class="game-content d-flax-centre">
+
+                <div class="game-vocab" id="vocabImg">
+                    <h3 class="game-text">Learn the word meaning:</h3>
+                    <!-- <div class="learn-img-contner">
+                        <img src="/asset/ninjaGo(land of level one).png" alt="" srcset="" class="img">
+                    </div> -->
+                    <div class="learn-img-contner">
+                        <img src="asset/level-1/word-w-m/level-1-w-with-mean (1).jpg" alt="" srcset=""
+                            class="img-content-learn" />
+                        <img src="asset/level-1/word-w-m/level-1-w-with-mean (2).png" alt="" srcset=""
+                            class="img-content-learn" />
+                        <img src="asset/level-1/word-w-m/level-1-w-with-mean (3).png" alt="" srcset=""
+                            class="img-content-learn" />
+                        <img src="asset/level-1/word-w-m/level-1-w-with-mean (4).png" alt="" srcset=""
+                            class="img-content-learn" />
+                        <img src="asset/level-1/word-w-m/level-1-w-with-mean (5).png" alt="" srcset=""
+                            class="img-content-learn" />
+                        <img src="asset/level-1/word-w-m/level-1-w-with-mean (6).png" alt="" srcset=""
+                            class="img-content-learn" />
+                        <img src="asset/level-1/word-w-m/level-1-w-with-mean (7).jpg" alt="" srcset=""
+                            class="img-content-learn" />
+                    </div>
+                </div>
+                <input type="button" id="startTestBtn" value="START TEST" class="btn-check btn-deflt test-s-btn"
+                    onclick="startTest('vocabImg', 'testPage', 'Test is on going')">
+                <div id="testPage" class="d-flax-centre">
+                    <h3 class="game-text">Answer these questions:</h3>
+                    <div class="game-qa d-flax-centre">
+                        <div class="check-img-contner d-flax-centre">
+                            <img src="/asset/level-1/word-w-no-m/word-w-no-m (1).png" alt="" srcset="" class="img">
+                        </div>
+                        <h4>This picture shows?</h4>
+                        <input type="text" name="" id="check-1" class="inp-check" placeholder="write the word">
+                        <input type="button" value="CHECK" class="btn-check btn-red"
+                            onclick=" callOfCheck('VASE', 'check-1', 'It is a picture of <b>Vase</b> where people mostly put bouquet')">
+                        <div id="boxcheck-1">
+                        </div>
+
+
+                    </div>
+                    <div class="game-qa d-flax-centre">
+                        <div class="check-img-contner d-flax-centre">
+                            <img src="/asset/level-1/word-w-no-m/word-w-no-mm (4).png" alt="" srcset="" class="img">
+                        </div>
+                        <h4>This picture shows?</h4>
+                        <input type="text" name="" id="check-2" class="inp-check" placeholder="write the word">
+                        <input type="button" value="CHECK" class="btn-check btn-red"
+                            onclick=" callOfCheck('BOUQUET', 'check-2', 'It is a picture of <b>Bouquet</b>. Bouquet is the combenition of flower used to gift someone or decorate room')">
+                        <div id="boxcheck-2">
+                        </div>
+
+
+                    </div>
+                    <div class="game-qa d-flax-centre">
+                        <div class="check-img-contner d-flax-centre">
+                            <img src="/asset/level-1/word-w-no-m/word-w-no-mm (2).png" alt="" srcset="" class="img">
+                        </div>
+                        <h4>What is it that is used to cover these boxes?</h4>
+                        <input type="text" name="" id="check-3" class="inp-check" placeholder="write the word">
+                        <input type="button" value="CHECK" class="btn-check btn-red"
+                            onclick=" callOfCheck('NUDE', 'check-3', 'This picture represent the color <b>Nude</b>. Nude color represent the skin-tone of a person and it is a very popular color nowadays')">
+                        <div id="boxcheck-3">
+                        </div>
+
+
+                    </div>
+                    <div class="game-qa d-flax-centre">
+                        <div class="check-img-contner d-flax-centre">
+                            <img src="/asset/level-1/word-w-no-m/word-w-no-m (3).png" alt="" srcset="" class="img">
+                        </div>
+                        <h4>According to the passage, this picture represents which color?</h4>
+                        <input type="text" name="" id="check-4" class="inp-check" placeholder="write the word">
+                        <input type="button" value="CHECK" class="btn-check btn-red"
+                            onclick=" callOfCheck('LID', 'check-4', 'Stuff that is used to cover this kind of boxex are known as <b>Lid</b>.')">
+                        <div id="boxcheck-4">
+                        </div>
+
+
+                    </div>
+                    <div class="game-qa d-flax-centre">
+                        <div class="check-img-contner d-flax-centre">
+                            <img src="/asset/level-1/word-w-no-m/word-w-no-m (5).png" alt="" srcset="" class="img">
+                        </div>
+                        <h4>What is this narrow road called?</h4>
+                        <input type="text" name="" id="check-5" class="inp-check" placeholder="write the word">
+                        <input type="button" value="CHECK" class="btn-check btn-red"
+                            onclick=" callOfCheck('ALLEY', 'check-5', 'This types of roads are called <b>Alley</b>, where streat dogs live in, bad boys smoke, and/or gang-starts wait for the target.')">
+                        <div id="boxcheck-5">
+                        </div>
+
+
+                    </div>
+                    <div class="game-qa d-flax-centre">
+                        <div class="check-img-contner d-flax-centre">
+                            <img src="/asset/level-1/word-w-no-m/word-w-no-mm (6).png" alt="" srcset="" class="img">
+                        </div>
+                        <h4>The road (street) of the Llivelly Fruit Stand is pretty crowed. This type of scenario is
+                            known as?</h4>
+                        <input type="text" name="" id="check-6" class="inp-check" placeholder="write the word">
+                        <input type="button" value="CHECK" class="btn-check btn-red"
+                            onclick=" callOfCheck('Bustling street', 'check-6', `This type of scenario is known as <b>Bustling street or road</b>,`)">
+                        <div id="boxcheck-6">
+                        </div>
+                        <br>
+                        <br>
+                        <button class="btn-check btn-deflt"
+                            onclick="startTest('testPage', 'vocabImg', 'Take another test')">Done</button>
+                    </div>
+
+                </div>
+            </div>
+            <!-- <img src="/asset/ninjaGo(land of level one).png" alt="" srcset="" class="game-bg">
+            <h1>dsf</h1>
+        </div> -->
+
+        </div>
+
+</body>
+
+</html>
